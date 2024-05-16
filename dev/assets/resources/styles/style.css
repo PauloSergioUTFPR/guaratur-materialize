@@ -11,3 +11,16 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+.card.panel >h4 {
+    font-size: clamp(1em, 3vw, 2em);
+}
+
+.cover {
+    height: 200px;
+    object-fit: cover;
+}
+
+.teste{
+    font-size: clamp(0.5rem, 2vw, 1em);
+}
